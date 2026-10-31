@@ -1,0 +1,21 @@
+{
+  "stage": "finetune_v4",
+  "root": "C:\\Users\\Andy Reed\\OneDrive\\Documents\\Schhol\\ITCS6169\\Assignment2",
+  "output": "C:\\Users\\Andy Reed\\OneDrive\\Documents\\Schhol\\ITCS6169\\Assignment2\\results",
+  "model": "finetune",
+  "size": "160",
+  "batch_size": "32",
+  "workers": "0",
+  "epochs": "40",
+  "ssl_epochs": "80",
+  "lr": "0.0005",
+  "ssl_lr": "0.0003",
+  "weight_decay": "0.0001",
+  "label_smoothing": "0.1",
+  "encoder_lr_factor": "0.1",
+  "temperature": "0.2",
+  "val_fraction": "0.2",
+  "seed": "42",
+  "device": "cuda",
+  "classes": "['Bedroom', 'Coast', 'Flower', 'Forest', 'Highway', 'Industrial', 'InsideCity', 'Kitchen', 'LivingRoom', 'Mountain', 'Office', 'OpenCountry', 'Store', 'Street', 'Suburb', 'TallBuilding']"
+}

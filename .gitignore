@@ -1,0 +1,36 @@
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python environments
+.venv/
+venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Dataset folders
+train/
+test/
+test2/
+
+# Dataset archives
+*.zip
+
+# Ignore intermediate model checkpoints
+results/*.pt
+
+# Keep the best trained model
+!results/finetune_v4.pt
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
